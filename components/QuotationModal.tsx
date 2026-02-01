@@ -50,26 +50,26 @@ export default function QuotationModal({ isOpen, onClose, productName }: Props) 
                 placeholder="Your Name"
                 value={name}
                 onChange={(e) => setName(e.target.value)}
-                className="border rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-orange-500"
+                className="border rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-orange-500 text-black"
               />
               <input
                 type="email"
                 placeholder="Your Email"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
-                className="border rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-orange-500"
+                className="border rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-orange-500 text-black"
               />
               <textarea
                 placeholder="Your Message"
                 value={message}
                 onChange={(e) => setMessage(e.target.value)}
-                className="border rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-orange-500"
+                className="border rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-orange-500 text-black"
               />
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 onClick={handleSubmit}
-                className="bg-orange-500 hover:bg-orange-600 text-white font-bold py-3 rounded-lg mt-2 shadow-lg transition-all"
+                className="bg-orange-500 hover:bg-orange-600 text-white font-bold py-3 rounded-lg mt-2 shadow-lg transition-all text-black"
               >
                 Send via WhatsApp
               </motion.button>
@@ -79,6 +79,7 @@ export default function QuotationModal({ isOpen, onClose, productName }: Props) 
               >
                 Cancel
               </button>
+              
             </div>
           </motion.div>
         </>
