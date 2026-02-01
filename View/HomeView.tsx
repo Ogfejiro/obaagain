@@ -6,11 +6,12 @@ import Services from "@/components/Services"
 import AboutPage from "@/components/About"
 import Contact from "@/components/Contact"
 import Footer from "@/components/Footer"
+import Navbar from "@/components/Navbar"
 
 const HomeView = () => {
   return (
     <div className="bg-white min-h-screen">
-
+               <Navbar/>
       {/* HERO SECTION - No top padding */}
       <section className="pb-8 md:pb-12"> {/* Removed pt-* completely */}
         <div className="container mx-auto px-4">
