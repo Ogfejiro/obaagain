@@ -19,7 +19,7 @@ const Footer = () => {
             transition={{ duration: 0.6 }}
           >
             <h2 className="text-2xl font-extrabold text-white">
-              King<span className="text-orange-500">Ruby</span>
+              King<span className="text-orange-500">RubyTech</span>
             </h2>
             <p className="mt-4 text-sm leading-relaxed text-gray-400">
               We build modern digital products, websites, and business solutions
